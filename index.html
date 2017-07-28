@@ -3,47 +3,50 @@
 
 <head>
     <title></title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script type="text/javascript" href="assets/game.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div id="searchBox" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div id="headLine" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h1> NY TIMES</h1>
             </div>
         </div>
         <div class="row">
             <div id="searchBox" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
+            <div id="searchHeader">Search Parameters
+            </div>
                 <div class="input-group">
                     <label>Search term</label>
-                    <span class="input-group-addon" id="searchTerm"></span>
-                    <input type="text" class="form-control" placeholder="Search Term">
+                    <span class="input-group-addon" ></span>
+                    <input id="searchTerm" type="text" class="form-control" placeholder="Search Term">
                 </div>
-
                 <div class="input-group">
                     <label>Number of records</label>
                     <span class="input-group-addon"></span>
                     <input type="text" class="form-control" id="numberToReturn" placeholder="ex:10">
                 </div>
-
                 <div class="input-group">
                     <label>Start Year(opt)</label>
-                    <span class="input-group-addon" id="startYear"></span>
-                    <input type="text" class="form-control">
+                    <span class="input-group-addon" ></span>
+                    <input id="startYear" type="text" class="form-control">
                 </div>
-
                 <div class="input-group">
                     <label>end year</label>
-                    <span class="input-group-addon" id="endYear"></span>
-                    <input type="text" class="form-control" id="basic-url">
+                    <span class="input-group-addon" ></span>
+                    <input id="endYear" type="text" class="form-control" id="basic-url">
                 </div>
-
                 <div>
-                    <button type="button" class="btn btn-default">search</button>
-                    <button type="button" class="btn btn-default">clear</button>
+                    <button id ="searchButton" type="button" class="btn btn-default">search</button>
+                    <button id ="clearButton" type="button" class="btn btn-default">clear</button>
                 </div>
-
+            </div>
+            <div class="row">
+                <div id="searchBox" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="divToDump">top articles</div>
+                </div>
             </div>
         </div>
     </div>

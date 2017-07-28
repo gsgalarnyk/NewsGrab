@@ -1,0 +1,12 @@
+body{
+	margin: 40px;
+}
+
+#headLine{
+	background-color: #20315a;
+	height:100px;
+	width:100%;
+	color:white;
+	font-size:30px;
+	text-align:center;
+}
