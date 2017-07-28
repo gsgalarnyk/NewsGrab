@@ -1,5 +1,5 @@
 body{
-	margin: 40px;
+	margin: auto 0;
 }
 
 #headLine{
@@ -9,4 +9,39 @@ body{
 	color:white;
 	font-size:30px;
 	text-align:center;
+	line-height:50px;
+	border-radius: 5px;
+	
+}
+
+#searchBox{
+	margin-top:10px;	
+	border: solid 1px #2c3e50;
+	border-radius: 5px;
+	padding:0px;
+	
+
+}
+
+#searchHeader{
+	background-color: #2c3e50;
+	padding:20px;
+	color:white;
+
+}
+
+.input-group{
+	margin:10px;
+	padding:0px 10px;
+}
+
+input{
+	width:90;
+}
+
+#divToDump{
+	background-color: #2c3e50;	
+	color:white;
+	border-radius: 5px;
+
 }
