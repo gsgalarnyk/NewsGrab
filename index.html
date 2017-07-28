@@ -12,41 +12,41 @@
     <div class="container">
         <div class="row">
             <div id="headLine" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h1>New York Times Search</h1>
+                <h1><span class="glyphicon glyphicon-list-alt"></span>  New York Times Search</h1>
             </div>
         </div>
         <div class="row">
             <div id="searchBox" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div id="searchHeader">
-                    <header class="glyphicon glyphicon-th-list">Search Parameters</header>
+                    <header><span class="glyphicon glyphicon-th-list"></span>  Search Parameters</header>
                 </div>
                 <div class="boxes">
                     <div class="input-group">
                         <label>Search term</label>
-                        <input id="searchTerm" type="text" class="form-control" placeholder="Search Term">
+                        <input id="searchTerm" type="text" class="form-control" placeholder="Search Term" size="145">
                     </div>
                     <div class="input-group">
                         <label>Number of records</label>
-                        <input type="text" class="form-control" id="numberToReturn" placeholder="ex:10">
+                        <input type="text" class="form-control" id="numberToReturn" placeholder="ex:10" size="145">
                     </div>
                     <div class="input-group">
                         <label>Start Year(opt)</label>
-                        <input id="startYear" type="text" class="form-control">
+                        <input id="startYear" type="text" class="form-control" size="145">
                     </div>
                     <div class="input-group">
                         <label>end year</label>
-                        <input id="endYear" type="text" class="form-control" id="basic-url">
+                        <input id="endYear" type="text" class="form-control" id="basic-url" size="145">
                     </div>
-                    <div>
-                        <button id="searchButton" type="button" class="btn btn-default">search</button>
-                        <button id="clearButton" type="button" class="btn btn-default">clear</button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="searchBox" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div id="divToDump">top articles</div>
+                    <div id="buttonDiv">
+                        <button id="searchButton" type="button" class="btn btn-default">Search</button>
+                        <button id="clearButton" type="button" class="btn btn-default">Clear Results</button>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="dumpBox" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div id="divToDump">top articles</div>
             </div>
         </div>
 </body>
